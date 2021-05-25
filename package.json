@@ -1,0 +1,26 @@
+{
+  "name": "app-cookie-filter",
+  "version": "0.0.1",
+  "description": "filter express apps based on a client side cookie",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "bufferutil": "^4.0.1",
+    "cookie-parser": "^1.4.5",
+    "set-cookie": "^0.0.4",
+    "body-parser": "^1.19.0",
+    "express-ws": "^4.0.0",
+    "utf-8-validate": "^5.0.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/jonathan-annett/app-cookie-filter"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
