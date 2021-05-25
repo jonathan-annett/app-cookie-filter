@@ -79,7 +79,7 @@ function cookieFilter(options) {
       
     };
   
-    const data_path =   path.join(__dirname,"..",".data/");
+    const data_path =   path.join(path.dirname(process.mainModule.filename),".data/");
     const sessionfile = data_path+"sessions.json";
     const activeSessions = fs.existsSync(sessionfile) ? JSON.parse(fs.readFileSync(sessionfile)): {};  
     const saveSessions = function(cb) {
