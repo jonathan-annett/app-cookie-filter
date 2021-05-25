@@ -1,5 +1,9 @@
 # app-cookie-filter
 
+allows seperate apps to be switched in and out per user, based on session cookie.
+
+(not shown in this demo (as there is only 1 app), but back end can determin what apps user has access to, by issuing switchApp() )
+
 see https://secure-json-editor.glitch.me/signin for a working demo
 
 
